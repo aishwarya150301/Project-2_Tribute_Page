@@ -1,0 +1,119 @@
+body{
+    background-color:black;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.heading{
+    text-align: center;
+    width: 100;
+    color: rgb(208, 207, 207);
+    font-size: 30px;
+}
+.part1{
+    background-color: black;
+    align-items: center;
+  
+    padding-left: 300px;
+    margin-bottom: 40px;
+   
+}
+.part2{
+    display: flex;
+    padding: 50px;
+    height: 650px;
+    margin-bottom: 40px;
+    background-color: rgb(196, 189, 189);
+}
+
+
+.container{
+    padding: 20px;
+    height: 400px;
+    width: 50%;
+    margin-bottom: 40px;
+}
+.part22{
+    height:550px ;
+    width: 50%;
+    margin-left: 40px;
+    padding-left: 10px;
+    background-color: rgb(196, 189, 189);
+    text-decoration: none;
+    border: 2px solid beige;
+    transform: translateY(-0.5rem);
+    box-shadow: 0 1rem 3rem -1rem;
+    cursor: pointer;
+    
+}
+.part22:hover{
+    background-color: black;
+    color: whitesmoke;
+    transition: 2s;
+    box-shadow: 2ch;
+}
+.image{
+    align-items: center;
+    transform: translateY(-0.5rem);
+}
+.work{
+    padding:5px; 
+
+}
+.quotes{
+    margin-left: 10px;
+   margin-right: 10px;
+    font-style: italic;
+}
+@media only screen and (max-width:600px){
+    body{
+       margin: 0px;
+       margin-top: 10 px;
+        margin-right: 10px;
+    }
+    .heading{
+        text-align: center;
+        margin-left:0px;
+        padding-left: 100px;
+        width: 900px;
+        color: rgb(208, 207, 207);
+        font-size: 30px;
+    }
+    .container{
+        padding: 10px;
+        margin-left: 10px;
+        width:1000px;
+       height:auto;
+    }
+    
+    .part1{
+        padding-left: 150px;
+        padding-right: 10px;
+        align-items: center;
+        width: 900px;
+        background-color: black;
+    }
+    
+    .part2{
+        
+        padding: 250px;
+        padding-top: 10px;
+        padding-bottom: 60px;
+        padding-right: 10px;
+        padding-left: 20px;
+        width: 1000px;
+        height: 800px;
+        display: flex;
+    }
+    .part22{
+        margin-top: 80px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        height: 750px;
+        width: 600px;
+        background-color: rgb(196, 189, 189);
+    
+    }
+        
+        
+}
